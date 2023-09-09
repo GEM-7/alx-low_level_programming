@@ -6,11 +6,15 @@
 
 int main(void)
 {
-	char a[24] = "abcdfghijklmnoprstuvwxyz";
+	char a[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 26; i++)
 	{
+		if ((a[i] == 'e') || (a[i] == 'q'))
+		{
+			continue;
+		}
 		putchar(a[i]);
 	}
 
