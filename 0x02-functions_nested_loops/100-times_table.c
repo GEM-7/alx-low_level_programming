@@ -20,15 +20,15 @@ void print_times_table(int n)
 		for (r = 0; r <= n; r++)
 		{
 			int product = c * r;
-			
+
 			if (r == 0)
 				printf("%d", product);
 			else if (product < 10)
-				printf("   %d", product);
+				printf(", %d", product);
                         else if (product < 100)
-				printf("  %d", product);
+				printf(", %d", product);
                         else
-				printf(" %d", product);
+				printf(", %d", product);
 		}
 		printf("\n");
 	}
