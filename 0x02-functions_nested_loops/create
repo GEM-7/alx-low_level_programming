@@ -1,8 +1,7 @@
 #!/bin/bash
 echo 'Enter file name....'
 read filename
-echo '#!/bin/bash' > ${filename}
 echo "File '$filename' created"
 echo '#include "main.h"' > $filename
-echo '/**' > $filename
+echo '/**' >> $filename
 vi $filename
