@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte
+ * _memset - fills memory with a constant byte
  * @s: parameter to be used
  * @b: parameter to be used
- * @n: paramenter to be used
+ * @n: parameter to be used
  * Return: Always s (Success)
 */
 
